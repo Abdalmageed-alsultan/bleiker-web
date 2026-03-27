@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d3b858;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #316575;
+  padding: 15px 40px;
+  box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding-bottom: 3px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #ffffff;
+}
+
+.content {
+  padding: 60px;
+  background: #5ac2ac;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+  padding: 15px 40px;
+}
+
+footer div {
+  flex: 1;
+  text-align: center;
+}
+footer img{
+width: 50px;
+}
+footer div:first-child {
+  text-align: left;
+}
+
+footer div:last-child {
+  text-align: right;
+}
+
+.logo img {
+  height: 70px;
+}

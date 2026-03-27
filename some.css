@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff00;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #316575;
+  padding: 15px 40px;
+  box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-weight: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 252, 252);
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.back-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.images img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a3a3a36f;
+  padding: 15px 40px;
+}
+
+footer div {
+  flex: 1;
+  text-align: center;
+}
+
+footer div:first-child {
+  text-align: left;
+}
+
+footer div:last-child {
+  text-align: right;
+}
+footer img{
+width: 70px;
+}
+video {
+  width: 60%;
+  margin-top: 20px;
+}
+.logo img {
+  height: 70px;
+}
